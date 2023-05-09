@@ -17,13 +17,9 @@ function Home() {
 }
 
 {/* write an <About> component here */}
-function About() {
-  return (
-    <div id="about">
-      <h2>About</h2>
-    </div>
-  );
-}
+
+const About = () => <div id = "about"About></div>;
+
 
 function App() {
   return (
